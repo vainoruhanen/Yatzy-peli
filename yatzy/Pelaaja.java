@@ -1,17 +1,17 @@
+
 public class Pelaaja {
 
     private int nimi;
     private int valiPisteet;
     private int pisteet;
     private boolean bonusSaatu;
-    private Laskuri laskuri;
+
 
     public Pelaaja(int nimi) {
         this.nimi = nimi;
         this.valiPisteet = 0;
         this.pisteet = 0;
         this.bonusSaatu = false;
-        this.laskuri = new Laskuri();
     }
 
     public int getPisteet() {
